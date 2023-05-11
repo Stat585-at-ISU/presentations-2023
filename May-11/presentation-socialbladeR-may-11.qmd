@@ -1,0 +1,20 @@
+---
+author: "Maxwell Skinner"
+title: "socialbladeR: A Package Designed to Scrape the Website Social Blade"
+date: "2023-05-11"
+time: "14:15"
+image: project-sample-img.png
+---
+ 
+ 
+## Abstract
+
+My final project is motivated by finding a quick and easy way using R to get social media statistics. Websites like Youtube do not have an API that is usable to to the public to get things such as most followed accounts, view history, or account statistics. The website Social Blade is one of the best outside resources to get these statistics. But as of the creation of this package, there was no working R package that could successfully scrape the website and get some of the statistics that Social Blade was tracking.
+
+The approach to solving this problem is by leaning heavily on the package RSelenium to scrape the contents of tables present on the website and packaging those tables as easy to handle methods. I was able to successfully scrape the website for this information, but ran into numerous problems that hindered me from fully completing the project. 
+
+The main limitations of this package is its slowness due to using RSelenium, as well as not being able to fully access the features of Social Blade without paying extra. Future work would be to scrape more information from the website using more methods. Things that could be scraped that are not as of this version of the package are: view history, most unsubscribed/unfollowed accounts, and most popular accounts by country. Future work would also be to optimize the code by possibly using a different package besides RSelenium. 
+
+
+
+More information can be found on the corresponding [Github repository](https://github.com/maxwellskinner2002/socialbladeR/tree/main)
